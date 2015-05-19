@@ -1,0 +1,54 @@
+{namespace sample}
+
+/**
+ * @param test string
+ * @param? nilTest nil
+ * @param complex map
+ * @param arr array
+*/
+{template .sample_template}
+    <div>
+        <h2>Test</h2>
+        <p>{$test}</p>
+    </div>
+    <div>
+        <h2>Nil Test</h2>
+        <p>{$nilTest ? 'not nil' : 'nil'}</p>
+    </div>
+    <div>
+        <h2>Complex</h2>
+        <table>
+            <thhead>
+                <tr>
+                    <th>Key</th><th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+            {foreach $key in keys($complex)}
+                {let $val:$complex[$key] /}
+                <tr>
+                    <td>{$key}</td><td>{$val}</td>
+                </tr>
+            {/foreach}
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h2>Array</h2>
+        {foreach $val in $arr}
+            {$val}{if not isLast($val)}, {/if}
+        {/foreach}
+    </div>
+{/template}
+
+/**
+ * @param data
+ */
+{template .default}
+    {call .sample_template }
+        {param test: $data.test /}
+        {param nilTest: $data?.nilTest /}
+        {param complex: $data.complex /}
+        {param arr: $data.arr /}
+    {/call}
+{/template}

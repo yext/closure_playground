@@ -1,0 +1,47 @@
+{
+    "data": {
+        "books":
+            [
+                {
+                    "title":"Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman",
+                    "authors":["David H. Hoover", "Adewale Oshineye"],
+                    "coverImageUrl":"http://akamaicovers.oreilly.com/images/9780596518387/lrg.jpg",
+                    "tags":["software","development","programming","craftsmenship"],
+                    "description":"Are you doing all you can to further your career as a software developer? With today's rapidly changing and ever-expanding technologies, being successful requires more than technical expertise. To grow professionally, you also need soft skills and effective learning techniques. Honing those skills is what this book is all about. Authors Dave Hoover and Adewale Oshineye have cataloged dozens of behavior patterns to help you perfect essential aspects of your craft.",
+                    "publishDate":"2010"
+                },
+                {
+                    "title":"Type Theory and Functional Programming",
+                    "authors":["Simon Thompson"],
+                    "coverImageUrl":"https://www.cs.kent.ac.uk/people/staff/sjt/TTFP/TTFP.jpg",
+                    "tags":["monads","haskell","type theory","functional programming"],
+                    "description":"Constructive Type theory has been a topic of research interest to computer scientists, mathematicians, logicians and philosophers for a number of years. For computer scientists it provides a framework which brings together logic and programming languages in a most elegant and fertile way: program development and verification can proceed within a single system. Viewed in a different way, type theory is a functional programming language with some novel features, such as the totality of all its functions, its expressive type system allowing functions whose result type depends upon the value of its input, and sophisticated modules and abstract types whose interfaces can contain logical assertions as well as signature information. A third point of view emphasizes that programs (or functions) can be extracted from proofs in the logic.",
+                    "publishDate":"1999"
+                },
+                {
+                    "title":"Kanban and Scrum - making the most of both",
+                    "authors":["Henrik Kniberg", "Mattias Skarin"],
+                    "coverImageUrl":"http://www.infoq.com/resource/minibooks/kanban-scrum-minibook/en/cover/KanbanAndScrumInfoQVersionFINAL250x355.JPG",
+                    "tags":["scrum","kanban","xp","project management", "software development process"],
+                    "description":"Scrum and Kanban are two flavours of Agile software development - two deceptively simple but surprisingly powerful approaches to software development. So how do they relate to each other?\nThe purpose of this book is to clear up the fog, so you can figure out how Kanban and Scrum might be useful in your environment.\nPart I illustrates the similarities and differences between Kanban and Scrum, comparing for understanding, not for judgement. There is no such thing as a good or bad tool - just good or bad decisions about when and how to use which tool.\nPart II is a case study illustrating how a Scrum-based development organization implemented Kanban in their operations and support teams.",
+                    "publishDate":"2009"
+                },
+                {
+                    "title":"An Introduction to Programming in Go",
+                    "authors":["Caleb Doxsey"],
+                    "coverImageUrl":"http://www.golang-book.com/assets/img/cover.png",
+                    "tags":["go","golang","gopher","introduction to go"],
+                    "description":"This book is a short, concise introduction to computer programming using the language Go. Designed by Google, Go is a general purpose programming language with modern features, clean syntax and a robust well-documented common library, making it an ideal language to learn as your first programming language.",
+                    "publishDate":"2012"
+                },
+                {
+                    "title":"Scalable and Modular Architecture for CSS",
+                    "authors":["Jonathan Snook"],
+                    "coverImageUrl":"http://cdn.shopify.com/s/files/1/0000/0042/products/book-cover_1_medium.png?v=1338900033",
+                    "tags":["css","less","sass","cascading stylesheets", "modular css"],
+                    "description":"Scalable and Modular Architecture for CSS (or SMACSS for short) is more style guide than rigid framework. There is no library within here for you to download or install. SMACSS is a way to examine your design process and as a way to fit those rigid frameworks into a flexible thought process. It is an attempt to document a consistent approach to site development when using CSS.",
+                    "publishDate":"2013"
+                }
+            ]
+    }
+}
