@@ -1,0 +1,17 @@
+{
+    "data": {
+            "test":"Test string",
+            "nilTest":null,
+            "complex": {
+                "a":"a value",
+                "b":"b value",
+                "c":"c value"
+            },
+            "arr": [
+                "value 1",
+                "value 2",
+                "value 3",
+                "value 4"
+            ]
+    }
+}
