@@ -1,0 +1,50 @@
+{namespace media}
+
+/**
+ * @param data
+ */
+{template .default}
+<style>
+    {literal}
+    table
+    {
+        border-collapse:collapse;
+    }
+
+    table, th, td
+    {
+        border: 1px solid #555;
+    }
+
+    th
+    {
+        background-color:#EEE;
+        font-weight:700;
+    }
+
+    th, td
+    {
+        padding:5px 10px;
+    }
+    {/literal}
+</style>
+<table>
+    <thead>
+        <tr>
+            <th>
+                Keys
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+{foreach $key in keys($data)}
+    <tr>
+        <td>
+            {$key}
+        </td>
+    </tr>
+{/foreach}
+    </tbody>
+</table>
+// Either implement your main template, or invoke it here
+{/template}
