@@ -29,7 +29,7 @@
                 {
                     "title":"An Introduction to Programming in Go",
                     "authors":["Caleb Doxsey"],
-                    "coverImageUrl":"http://www.golang-book.com/assets/img/cover.png",
+                    "coverImageUrl":"http://www.golang-book.com/public/img/intro/cover.noatx1.png",
                     "tags":["go","golang","gopher","introduction to go"],
                     "description":"This book is a short, concise introduction to computer programming using the language Go. Designed by Google, Go is a general purpose programming language with modern features, clean syntax and a robust well-documented common library, making it an ideal language to learn as your first programming language.",
                     "publishDate":"2012"
