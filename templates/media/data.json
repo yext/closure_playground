@@ -21,7 +21,7 @@
                 {
                     "title":"Kanban and Scrum - making the most of both",
                     "authors":["Henrik Kniberg", "Mattias Skarin"],
-                    "coverImageUrl":"http://www.infoq.com/resource/minibooks/kanban-scrum-minibook/en/cover/KanbanAndScrumInfoQVersionFINAL250x355.JPG",
+                    "coverImageUrl":null,
                     "tags":["scrum","kanban","xp","project management", "software development process"],
                     "description":"Scrum and Kanban are two flavours of Agile software development - two deceptively simple but surprisingly powerful approaches to software development. So how do they relate to each other?\nThe purpose of this book is to clear up the fog, so you can figure out how Kanban and Scrum might be useful in your environment.\nPart I illustrates the similarities and differences between Kanban and Scrum, comparing for understanding, not for judgement. There is no such thing as a good or bad tool - just good or bad decisions about when and how to use which tool.\nPart II is a case study illustrating how a Scrum-based development organization implemented Kanban in their operations and support teams.",
                     "publishDate":"2009"
